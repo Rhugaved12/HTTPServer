@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+</head>
+<body>
+    <h2>Sample form to test POST</h2>
+
+    <form action="/form_submition_data.json" method="POST" enctype="multipart/form-data">
+        <label for="fname">First name: </label><br>
+        <input type="text" id="fname" name="fname" value="Rhugaved"><br>
+
+        <label for="mname">Middle name: </label><br>
+        <input type="text" id="mname", name="mname" value="Rajendra"><br>
+
+        Select image to upload:
+        <input type="file" name="fileToUpload" id="fileToUpload">
+
+        <label for="lname">Last name: </label><br>
+        <input type="text" id="lname", name="lname" value="Narmade"><br>
+
+        Select second image to upload:
+        <input type="file" name="file2Upload" id="file2Upload">
+        
+
+        <!-- <form action="upload.php" method="post" enctype="multipart/form-data">
+            Select image to upload:
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <input type="submit" value="Upload Image" name="submit">
+        </form> -->
+
+
+        <input type="submit" value="Submit"><br>
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
